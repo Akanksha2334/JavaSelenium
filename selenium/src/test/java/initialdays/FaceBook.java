@@ -2,6 +2,7 @@ package initialdays;
 
 import java.time.Duration;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,6 +24,9 @@ public static void main(String[] args) {
 	
 	//click on login
 	driver.findElement(By.cssSelector("button[name='login']")).click();
+	
+	
+	
 	
 	driver.quit();
 	
