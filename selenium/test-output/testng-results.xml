@@ -1,54 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="2" total="11" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-05T16:43:40 IST" name="Loan Department" finished-at="2026-02-05T16:43:40 IST" duration-ms="118">
+  <suite started-at="2026-02-06T16:42:26 IST" name="Loan Department" finished-at="2026-02-06T16:42:26 IST" duration-ms="113">
     <groups>
+      <group name="smoke">
+        <method signature="Day1.secondTest()[pri:0, instance:TestNGTutorial.Day1@1a451d4d]" name="secondTest" class="TestNGTutorial.Day1"/>
+        <method signature="Day2.loan()[pri:0, instance:TestNGTutorial.Day2@71809907]" name="loan" class="TestNGTutorial.Day2"/>
+        <method signature="Day4.mobileHomeLoan()[pri:0, instance:TestNGTutorial.Day4@3ce1e309]" name="mobileHomeLoan" class="TestNGTutorial.Day4"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-02-05T16:43:40 IST" name="Personal Loan" finished-at="2026-02-05T16:43:40 IST" duration-ms="118">
+    <test started-at="2026-02-06T16:42:26 IST" name="Car Loan" finished-at="2026-02-06T16:42:26 IST" duration-ms="105">
+      <class name="TestNGTutorial.Day3">
+        <test-method is-config="true" signature="bfsuite()[pri:0, instance:TestNGTutorial.Day3@9597028]" started-at="2026-02-06T16:42:26 IST" name="bfsuite" finished-at="2026-02-06T16:42:26 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfsuite -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:TestNGTutorial.Day3@9597028]" started-at="2026-02-06T16:42:26 IST" name="beforeEvery" finished-at="2026-02-06T16:42:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method signature="mobileLogInCarLoan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorial.Day3@9597028]" started-at="2026-02-06T16:42:26 IST" name="mobileLogInCarLoan" data-provider="getData" finished-at="2026-02-06T16:42:26 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogInCarLoan -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:TestNGTutorial.Day3@9597028]" started-at="2026-02-06T16:42:26 IST" name="beforeEvery" finished-at="2026-02-06T16:42:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method signature="mobileLogInCarLoan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorial.Day3@9597028]" started-at="2026-02-06T16:42:26 IST" name="mobileLogInCarLoan" data-provider="getData" finished-at="2026-02-06T16:42:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogInCarLoan -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:TestNGTutorial.Day3@9597028]" started-at="2026-02-06T16:42:26 IST" name="beforeEvery" finished-at="2026-02-06T16:42:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method signature="mobileLogInCarLoan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorial.Day3@9597028]" started-at="2026-02-06T16:42:26 IST" name="mobileLogInCarLoan" data-provider="getData" finished-at="2026-02-06T16:42:26 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogInCarLoan -->
+        <test-method is-config="true" signature="beforeEvery()[pri:0, instance:TestNGTutorial.Day3@9597028]" started-at="2026-02-06T16:42:26 IST" name="beforeEvery" finished-at="2026-02-06T16:42:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEvery -->
+        <test-method signature="mobileSignOutCarLoan()[pri:0, instance:TestNGTutorial.Day3@9597028]" started-at="2026-02-06T16:42:26 IST" name="mobileSignOutCarLoan" finished-at="2026-02-06T16:42:26 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignOutCarLoan -->
+      </class> <!-- TestNGTutorial.Day3 -->
+      <class name="TestNGTutorial.Day1">
+        <test-method is-config="true" signature="afsuite()[pri:0, instance:TestNGTutorial.Day1@1a451d4d]" started-at="2026-02-06T16:42:27 IST" name="afsuite" finished-at="2026-02-06T16:42:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afsuite -->
+      </class> <!-- TestNGTutorial.Day1 -->
+    </test> <!-- Car Loan -->
+    <test started-at="2026-02-06T16:42:26 IST" name="Personal Loan" finished-at="2026-02-06T16:42:26 IST" duration-ms="113">
       <class name="TestNGTutorial.Day4">
-        <test-method signature="mobileHomeLoan()[pri:0, instance:TestNGTutorial.Day4@647e447]" started-at="2026-02-05T16:43:40 IST" name="mobileHomeLoan" finished-at="2026-02-05T16:43:40 IST" duration-ms="2" status="PASS">
+        <test-method signature="mobileHomeLoan()[pri:0, instance:TestNGTutorial.Day4@3ce1e309]" started-at="2026-02-06T16:42:26 IST" name="mobileHomeLoan" finished-at="2026-02-06T16:42:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileHomeLoan -->
-        <test-method signature="webHomeLoan()[pri:0, instance:TestNGTutorial.Day4@647e447]" started-at="2026-02-05T16:43:40 IST" name="webHomeLoan" finished-at="2026-02-05T16:43:40 IST" duration-ms="3" status="PASS">
+        <test-method signature="webHomeLoan()[pri:0, instance:TestNGTutorial.Day4@3ce1e309]" started-at="2026-02-06T16:42:26 IST" name="webHomeLoan" finished-at="2026-02-06T16:42:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webHomeLoan -->
       </class> <!-- TestNGTutorial.Day4 -->
-      <class name="TestNGTutorial.Day3">
-        <test-method signature="mobileLogInCarLoan()[pri:0, instance:TestNGTutorial.Day3@3427b02d]" started-at="2026-02-05T16:43:40 IST" name="mobileLogInCarLoan" finished-at="2026-02-05T16:43:40 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLogInCarLoan -->
-        <test-method signature="mobileSignInCarLoan()[pri:0, instance:TestNGTutorial.Day3@3427b02d]" started-at="2026-02-05T16:43:40 IST" name="mobileSignInCarLoan" finished-at="2026-02-05T16:43:40 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileSignInCarLoan -->
-        <test-method signature="mobileSignOutCarLoan()[pri:0, instance:TestNGTutorial.Day3@3427b02d]" started-at="2026-02-05T16:43:40 IST" name="mobileSignOutCarLoan" finished-at="2026-02-05T16:43:40 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileSignOutCarLoan -->
-        <test-method signature="webCarLoan()[pri:0, instance:TestNGTutorial.Day3@3427b02d]" started-at="2026-02-05T16:43:40 IST" name="webCarLoan" finished-at="2026-02-05T16:43:40 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webCarLoan -->
-      </class> <!-- TestNGTutorial.Day3 -->
       <class name="TestNGTutorial.Day2">
-        <test-method signature="loan()[pri:0, instance:TestNGTutorial.Day2@28eaa59a]" started-at="2026-02-05T16:43:40 IST" name="loan" finished-at="2026-02-05T16:43:40 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="prerequisite()[pri:0, instance:TestNGTutorial.Day2@71809907]" started-at="2026-02-06T16:42:26 IST" name="prerequisite" finished-at="2026-02-06T16:42:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="loan()[pri:0, instance:TestNGTutorial.Day2@71809907]" started-at="2026-02-06T16:42:26 IST" name="loan" finished-at="2026-02-06T16:42:26 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loan -->
+        <test-method is-config="true" signature="afterEvery()[pri:0, instance:TestNGTutorial.Day2@71809907]" started-at="2026-02-06T16:42:26 IST" name="afterEvery" finished-at="2026-02-06T16:42:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEvery -->
+        <test-method is-config="true" signature="afClass()[pri:0, instance:TestNGTutorial.Day2@71809907]" started-at="2026-02-06T16:42:26 IST" name="afClass" finished-at="2026-02-06T16:42:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afClass -->
       </class> <!-- TestNGTutorial.Day2 -->
       <class name="TestNGTutorial.Day1">
-        <test-method signature="demo()[pri:0, instance:TestNGTutorial.Day1@15eb5ee5]" started-at="2026-02-05T16:43:40 IST" name="demo" finished-at="2026-02-05T16:43:40 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="befClass()[pri:0, instance:TestNGTutorial.Day1@1a451d4d]" started-at="2026-02-06T16:42:26 IST" name="befClass" finished-at="2026-02-06T16:42:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befClass -->
+        <test-method signature="demo(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorial.Day1@1a451d4d]" started-at="2026-02-06T16:42:26 IST" name="demo" finished-at="2026-02-06T16:42:26 IST" duration-ms="19" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at TestNGTutorial.Day1.demo(Day1.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method signature="secondTest()[pri:0, instance:TestNGTutorial.Day1@15eb5ee5]" started-at="2026-02-05T16:43:40 IST" name="secondTest" finished-at="2026-02-05T16:43:40 IST" duration-ms="2" status="PASS">
+        <test-method signature="secondTest()[pri:0, instance:TestNGTutorial.Day1@1a451d4d]" started-at="2026-02-06T16:42:26 IST" name="secondTest" finished-at="2026-02-06T16:42:26 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTest -->
+        <test-method is-config="true" signature="lastExecution()[pri:0, instance:TestNGTutorial.Day1@1a451d4d]" started-at="2026-02-06T16:42:26 IST" name="lastExecution" finished-at="2026-02-06T16:42:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
       </class> <!-- TestNGTutorial.Day1 -->
     </test> <!-- Personal Loan -->
   </suite> <!-- Loan Department -->

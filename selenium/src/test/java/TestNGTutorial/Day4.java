@@ -7,9 +7,10 @@ public class Day4 {
 	public void webHomeLoan() {
 		System.out.println(" web home loan");
 	}
-	@Test
+	@Test(groups= {"smoke"})
 	public void mobileHomeLoan() {
 		System.out.println("mobile home loan");
 	}
+	
 
 }
